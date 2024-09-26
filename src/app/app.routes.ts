@@ -4,9 +4,7 @@ export const routes: Routes = [
   {
     path: 'calculator',
     loadComponent: () =>
-      import(
-        './calculator/components/calculator-view/calculator-view.component'
-      ),
+      import('./calculator/views/calculator-view/calculator-view.component'),
   },
   {
     path: '**',
