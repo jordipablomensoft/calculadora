@@ -9,3 +9,7 @@ button{
 .is-double-size {
   @apply bg-indigo-700 bg-opacity-30 w-2/4;
 }
+
+.is-pressed{
+  @apply bg-indigo-800 bg-opacity-20;
+}
