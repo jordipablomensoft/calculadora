@@ -24,7 +24,7 @@ export class CalculatorComponent {
   public calculatorButtons = viewChildren(CalculatorButtonComponent);
 
   handleClick(key: string) {
-    console.log({ key });
+    this._calculatorService.constructNumber(key);
   }
 
   handleKeyboardEvent(event: KeyboardEvent) {
